@@ -1,0 +1,8 @@
+neo4j:
+  image: bitnami/neo4j
+  ports:
+    - '7474:7474'
+    - '7473:7473'
+    - '7687:7687'
+  environment:
+    - NEO4J_PASSWORD=neo4j1234
